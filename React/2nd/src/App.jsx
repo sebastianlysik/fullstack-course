@@ -1,4 +1,5 @@
 import './App.css'
+import Heading from './heading';
 
 function App() {
   const d = new Date();
@@ -24,6 +25,7 @@ function App() {
   return (
     <>
       <h1 style={customStyle}>{greeting}</h1>
+      <Heading />
     </>
   )
 }
