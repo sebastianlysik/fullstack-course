@@ -8,6 +8,7 @@ const lname = "Łysik"
 const date = new Date(); 
 const currentYear = date.getFullYear();
 var number = Math.floor(Math.random() * 101); 
+const image = "https://picsum.photos/200";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         </ul>
         <p>Your lucky number between 1 and a 100 is: {number}</p>
         <p>Created by {fname + " " + lname}</p>
+        <img src={image}></img>
         <p>Copyright {currentYear}</p>
     </>
   )
